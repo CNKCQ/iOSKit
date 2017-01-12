@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "iOSKit"
-  s.version      = "0.0.0"
+  s.version      = "0.0.1"
   s.summary      = "A collection of iOS components."
 
   s.description  = <<-DESC
