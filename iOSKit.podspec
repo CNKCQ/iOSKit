@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resource_bundles = {
+  # s.resource_bundles = {
   'iOSKit' => ['iOSKit/Resources/**/*.png']
 }
 
