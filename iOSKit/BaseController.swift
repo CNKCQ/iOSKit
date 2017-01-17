@@ -14,8 +14,11 @@ class BaseController: UIViewController {
         super.viewDidLoad()
     }
     
-    func startActivity(_ dest: UIViewController, animated: Bool = true) {
+    func startActivity(_ dest: UIViewController, _ animated: Bool = true) {
         dest.hidesBottomBarWhenPushed = true
+        pushConfig(dest)
         navigationController?.pushViewController(dest, animated: animated)
     }
+    
+    func pushConfig(_ dest: UIViewController) {}
 }
