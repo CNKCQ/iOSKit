@@ -6,7 +6,10 @@
 import WebKit
 
 class WebController: BaseController {
-    var webView: WKWebView!
+    
+    // see: https://www.natashatherobot.com/swift-magic-public-getter-private-setter/
+    private(set) var webView: WKWebView!
+    
     var urlStr: String!
     
     override func viewDidLoad() {
